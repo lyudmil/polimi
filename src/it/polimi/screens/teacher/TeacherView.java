@@ -3,6 +3,7 @@ package it.polimi.screens.teacher;
 import android.content.Context;
 import android.view.View;
 import android.widget.TextView;
+import it.polimi.GoTo;
 import it.polimi.R;
 import it.polimi.models.Teacher;
 import it.polimi.screens.ModelView;
@@ -17,6 +18,7 @@ public class TeacherView extends ModelView<Teacher> {
     public View show() {
         TextView titleAndName = (TextView) view.findViewById(R.id.title_and_name);
         titleAndName.setText(String.format("%s %s", model.title, model.name));
+        view.setOnClickListener(new GoTo(context, ViewTeacher.class, model.id));
         return view;
     }
 

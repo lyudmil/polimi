@@ -40,8 +40,9 @@ public final class R {
         public static final int student=0x7f020007;
         public static final int student_item=0x7f020008;
         public static final int students=0x7f020009;
-        public static final int teacher_item=0x7f02000a;
-        public static final int teachers=0x7f02000b;
+        public static final int teacher=0x7f02000a;
+        public static final int teacher_item=0x7f02000b;
+        public static final int teachers=0x7f02000c;
     }
     public static final class string {
         public static final int app_name=0x7f030000;
