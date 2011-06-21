@@ -1,32 +1,33 @@
-package it.polimi;
+package it.polimi.screens.student;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import it.polimi.models.Course;
+import it.polimi.R;
+import it.polimi.models.Student;
 
-public class ViewCourse extends Activity {
+public class ViewStudent extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.course);
+        setContentView(R.layout.student);
 
         long id = getIntent().getExtras().getLong("id");
-        final Course course = new Course().find(id);
+        final Student student = new Student().find(id);
 
         TextView name = (TextView) findViewById(R.id.name);
-        name.setText(course.name);
+        name.setText(student.name);
 
-        TextView description = (TextView) findViewById(R.id.description);
-        description.setText(course.description);
+        TextView matriculationNumber = (TextView) findViewById(R.id.matriculation_number);
+        matriculationNumber.setText(student.matriculation_number.toString());
 
         Button delete = (Button) findViewById(R.id.delete);
         delete.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                course.destroy();
+                student.destroy();
                 finish();
             }
         });

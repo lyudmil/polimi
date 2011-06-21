@@ -1,10 +1,11 @@
-package it.polimi;
+package it.polimi.screens.course;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
+import it.polimi.GoTo;
+import it.polimi.R;
 import it.polimi.models.Course;
 
 public class CourseView {

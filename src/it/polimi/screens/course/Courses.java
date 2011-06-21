@@ -1,10 +1,11 @@
-package it.polimi;
+package it.polimi.screens.course;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import it.polimi.GoTo;
+import it.polimi.R;
 import it.polimi.models.Course;
 
 public class Courses extends Activity {

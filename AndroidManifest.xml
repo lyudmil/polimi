@@ -11,12 +11,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="Students" android:label="All students"/>
-        <activity android:name="NewStudent" android:label="Add student"/>
-        <activity android:name="ViewStudent" android:label="View student"/>
+        <activity android:name=".screens.student.Students" android:label="All students"/>
+        <activity android:name=".screens.student.NewStudent" android:label="Add student"/>
+        <activity android:name=".screens.student.ViewStudent" android:label="View student"/>
 
-        <activity android:name="Courses" android:label="All courses"/>
-        <activity android:name="NewCourse" android:label="Add course"/>
-        <activity android:name="ViewCourse" android:label="View course"/>
+        <activity android:name=".screens.course.Courses" android:label="All courses"/>
+        <activity android:name=".screens.course.NewCourse" android:label="Add course"/>
+        <activity android:name=".screens.course.ViewCourse" android:label="View course"/>
     </application>
 </manifest> 

@@ -6,6 +6,8 @@ import android.widget.Button;
 import com.androidrecord.db.DatabaseManager;
 import it.polimi.models.Course;
 import it.polimi.models.Student;
+import it.polimi.screens.course.Courses;
+import it.polimi.screens.student.Students;
 
 public class Start extends Activity
 {

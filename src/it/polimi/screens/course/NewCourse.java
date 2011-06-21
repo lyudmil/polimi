@@ -1,10 +1,11 @@
-package it.polimi;
+package it.polimi.screens.course;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import it.polimi.R;
 import it.polimi.models.Course;
 
 public class NewCourse extends Activity {

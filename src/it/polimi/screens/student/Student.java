@@ -1,4 +1,4 @@
-package it.polimi;
+package it.polimi.screens.student;
 
 import android.app.Activity;
 import android.os.Bundle;
