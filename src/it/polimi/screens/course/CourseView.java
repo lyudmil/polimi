@@ -1,30 +1,29 @@
 package it.polimi.screens.course;
 
 import android.content.Context;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import it.polimi.GoTo;
 import it.polimi.R;
 import it.polimi.models.Course;
+import it.polimi.screens.ModelView;
 
-public class CourseView {
+public class CourseView extends ModelView<Course> {
 
-    View view;
-    private Context context;
-    private Course course;
-
-    public CourseView(Context context, Course course) {
-        this.context = context;
-        this.course = course;
-        view = LayoutInflater.from(context).inflate(R.layout.course_item, null);
+    public CourseView(Context context, Course model) {
+        super(context, model);
     }
 
     public View show() {
         TextView name = (TextView) view.findViewById(R.id.name);
-        name.setText(course.name);
+        name.setText(model.name);
 
-        view.setOnClickListener(new GoTo(context, ViewCourse.class, course.id));
+        view.setOnClickListener(new GoTo(context, ViewCourse.class, model.id));
         return view;
+    }
+
+    @Override
+    protected int getLayout() {
+        return R.layout.course_item;
     }
 }

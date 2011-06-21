@@ -18,5 +18,8 @@
         <activity android:name=".screens.course.Courses" android:label="All courses"/>
         <activity android:name=".screens.course.NewCourse" android:label="Add course"/>
         <activity android:name=".screens.course.ViewCourse" android:label="View course"/>
+
+        <activity android:name=".screens.teacher.Teachers" android:label="All teachers"/>
+        <activity android:name=".screens.teacher.NewTeacher" android:label="Add teacher"/>
     </application>
 </manifest> 

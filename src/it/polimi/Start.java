@@ -6,8 +6,10 @@ import android.widget.Button;
 import com.androidrecord.db.DatabaseManager;
 import it.polimi.models.Course;
 import it.polimi.models.Student;
+import it.polimi.models.Teacher;
 import it.polimi.screens.course.Courses;
 import it.polimi.screens.student.Students;
+import it.polimi.screens.teacher.Teachers;
 
 public class Start extends Activity
 {
@@ -22,9 +24,13 @@ public class Start extends Activity
         Button courses = (Button) findViewById(R.id.courses);
         courses.setOnClickListener(new GoTo(this, Courses.class));
 
+        Button teachers = (Button) findViewById(R.id.teachers);
+        teachers.setOnClickListener(new GoTo(this, Teachers.class));
+
         DatabaseManager databaseManager = new DatabaseManager(getApplicationContext());
         databaseManager.registerModel(Student.class);
         databaseManager.registerModel(Course.class);
+        databaseManager.registerModel(Teacher.class);
         databaseManager.bootStrapDatabase();
     }
 
