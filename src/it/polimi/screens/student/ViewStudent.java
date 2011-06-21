@@ -24,6 +24,9 @@ public class ViewStudent extends Activity {
         TextView matriculationNumber = (TextView) findViewById(R.id.matriculation_number);
         matriculationNumber.setText(student.matriculation_number.toString());
 
+        TextView adviser = (TextView) findViewById(R.id.adviser);
+        adviser.setText("Adviser: " + student.adviser.toString());
+
         Button delete = (Button) findViewById(R.id.delete);
         delete.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

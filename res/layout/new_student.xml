@@ -16,6 +16,12 @@
               android:inputType="number"
               android:hint="Matriculation number"/>
 
+    <Spinner android:id="@+id/adviser"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:drawSelectorOnTop="true"
+             android:prompt="@string/adviser_prompt"/>
+
     <Button android:id="@+id/add"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
