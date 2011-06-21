@@ -23,6 +23,12 @@ public class ViewTeacher extends Activity {
         TextView titleAndName = (TextView) findViewById(R.id.title_and_name);
         titleAndName.setText(teacher.title + " " + teacher.name);
 
+        TextView students = (TextView) findViewById(R.id.students);
+        students.setText("Students: " + teacher.students.asList().toString());
+
+        TextView courses = (TextView) findViewById(R.id.courses);
+        courses.setText("Lectures: " + teacher.lectures.asList().toString());
+
         Button delete = (Button) findViewById(R.id.delete);
         delete.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

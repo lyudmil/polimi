@@ -10,4 +10,9 @@ public class Course extends ActiveRecordBase<Course> {
 
     @BelongsTo
     public Teacher teacher;
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

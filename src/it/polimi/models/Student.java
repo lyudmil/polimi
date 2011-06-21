@@ -7,4 +7,9 @@ public class Student extends Person<Student> {
 
     @BelongsTo
     public Teacher adviser;
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
