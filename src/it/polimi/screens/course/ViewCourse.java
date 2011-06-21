@@ -24,6 +24,9 @@ public class ViewCourse extends Activity {
         TextView description = (TextView) findViewById(R.id.description);
         description.setText(course.description);
 
+        TextView teacher = (TextView) findViewById(R.id.teacher);
+        teacher.setText("Teacher: " + course.teacher.toString());
+
         Button delete = (Button) findViewById(R.id.delete);
         delete.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

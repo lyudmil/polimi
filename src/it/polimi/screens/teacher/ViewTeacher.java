@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import it.polimi.R;
+import it.polimi.models.Course;
+import it.polimi.models.Student;
 import it.polimi.models.Teacher;
 
 public class ViewTeacher extends Activity {
@@ -24,6 +26,12 @@ public class ViewTeacher extends Activity {
         Button delete = (Button) findViewById(R.id.delete);
         delete.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+                for (Course lecture : teacher.lectures) {
+                    lecture.destroy();
+                }
+                for (Student student : teacher.students) {
+                    student.destroy();
+                }
                 teacher.destroy();
                 finish();
             }

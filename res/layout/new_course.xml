@@ -15,6 +15,11 @@
               android:layout_height="wrap_content"
               android:hint="Course description"/>
 
+    <Spinner android:id="@+id/teacher"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:prompt="@string/teacher_prompt"/>
+
     <Button android:id="@+id/add"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
