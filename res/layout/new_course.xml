@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <EditText android:id="@+id/course_name"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="Course name"/>
+
+    <EditText android:id="@+id/course_description"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="Course description"/>
+
+    <Button android:id="@+id/add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+
+</LinearLayout>
