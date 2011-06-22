@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import com.androidrecord.db.DatabaseManager;
 import it.polimi.models.Course;
+import it.polimi.models.Enrollment;
 import it.polimi.models.Student;
 import it.polimi.models.Teacher;
 import it.polimi.screens.course.Courses;
@@ -31,6 +32,7 @@ public class Start extends Activity
         databaseManager.registerModel(Student.class);
         databaseManager.registerModel(Course.class);
         databaseManager.registerModel(Teacher.class);
+        databaseManager.registerModel(Enrollment.class);
         databaseManager.bootStrapDatabase();
     }
 

@@ -22,5 +22,7 @@
         <activity android:name=".screens.teacher.Teachers" android:label="All teachers"/>
         <activity android:name=".screens.teacher.NewTeacher" android:label="Add teacher"/>
         <activity android:name=".screens.teacher.ViewTeacher" android:label="View teacher"/>
+
+        <activity android:name=".screens.enrollment.NewEnrollment" android:label="Add course"/>
     </application>
 </manifest> 

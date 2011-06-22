@@ -38,6 +38,7 @@ public class ViewTeacher extends Activity {
                 for (Student student : teacher.students) {
                     student.destroy();
                 }
+
                 teacher.destroy();
                 finish();
             }

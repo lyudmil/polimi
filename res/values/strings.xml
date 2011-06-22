@@ -3,4 +3,5 @@
     <string name="app_name">polimi</string>
     <string name="adviser_prompt">Select an adviser</string>
     <string name="teacher_prompt">Select a teacher</string>
+    <string name="course_prompt">Select a course</string>
 </resources>
