@@ -17,7 +17,6 @@ public class TeacherView extends ModelView<Teacher> {
     @Override
     public View show() {
         TextView titleAndName = (TextView) view.findViewById(R.id.title_and_name);
-        titleAndName.setText(String.format("%s %s", model.title, model.name));
         view.setOnClickListener(new GoTo(context, ViewTeacher.class, model.id));
         return view;
     }

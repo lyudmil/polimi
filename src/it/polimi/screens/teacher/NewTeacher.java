@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import it.polimi.R;
-import it.polimi.models.Teacher;
 
 public class NewTeacher extends Activity {
 
@@ -24,11 +23,6 @@ public class NewTeacher extends Activity {
         Button add = (Button) findViewById(R.id.add);
         add.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Teacher teacher = new Teacher();
-                teacher.name = name.getText().toString();
-                teacher.title = title.getText().toString();
-
-                teacher.save();
                 finish();
             }
         });

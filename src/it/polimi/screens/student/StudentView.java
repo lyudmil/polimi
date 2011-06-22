@@ -17,10 +17,8 @@ public class StudentView extends ModelView<Student> {
     @Override
     public View show() {
         TextView name = (TextView) view.findViewById(R.id.name);
-        name.setText(model.name);
 
         TextView matriculationNumber = (TextView) view.findViewById(R.id.matriculation_number);
-        matriculationNumber.setText(model.matriculation_number.toString());
 
         view.setOnClickListener(new GoTo(context, ViewStudent.class, model.id));
 

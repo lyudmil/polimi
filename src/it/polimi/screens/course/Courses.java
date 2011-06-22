@@ -6,7 +6,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import it.polimi.GoTo;
 import it.polimi.R;
-import it.polimi.models.Course;
 
 public class Courses extends Activity {
 
@@ -28,8 +27,5 @@ public class Courses extends Activity {
         super.onResume();
 
         courses.removeAllViews();
-        for (Course course : new Course().all()) {
-            courses.addView(new CourseView(this, course).show());
-        }
     }
 }

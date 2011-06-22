@@ -16,7 +16,6 @@ public class CourseView extends ModelView<Course> {
 
     public View show() {
         TextView name = (TextView) view.findViewById(R.id.name);
-        name.setText(model.name);
 
         view.setOnClickListener(new GoTo(context, ViewCourse.class, model.id));
         return view;
