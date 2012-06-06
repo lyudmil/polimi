@@ -2,8 +2,8 @@ package it.polimi.models;
 
 import com.androidrecord.ActiveCollection;
 import com.androidrecord.ActiveRecordBase;
-import com.androidrecord.relations.BelongsTo;
-import com.androidrecord.relations.HasMany;
+import com.androidrecord.associations.BelongsTo;
+import com.androidrecord.associations.HasMany;
 
 import java.util.ArrayList;
 

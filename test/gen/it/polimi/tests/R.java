@@ -5,13 +5,13 @@
  * should not be modified by hand.
  */
 
-package com.example;
+package it.polimi.tests;
 
 public final class R {
     public static final class attr {
     }
     public static final class layout {
-        public static final int main=0x7f020000;
+        public static final int shopping_list_panel=0x7f020000;
     }
     public static final class string {
         public static final int app_name=0x7f030000;

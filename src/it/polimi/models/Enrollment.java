@@ -1,7 +1,7 @@
 package it.polimi.models;
 
 import com.androidrecord.ActiveRecordBase;
-import com.androidrecord.relations.BelongsTo;
+import com.androidrecord.associations.BelongsTo;
 
 public class Enrollment extends ActiveRecordBase<Enrollment> {
 

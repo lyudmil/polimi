@@ -42,13 +42,14 @@ public final class R {
         public static final int new_enrollment=0x7f020006;
         public static final int new_student=0x7f020007;
         public static final int new_teacher=0x7f020008;
-        public static final int student=0x7f020009;
-        public static final int student_item=0x7f02000a;
-        public static final int students=0x7f02000b;
-        public static final int teacher=0x7f02000c;
-        public static final int teacher_item=0x7f02000d;
-        public static final int teacher_select_item=0x7f02000e;
-        public static final int teachers=0x7f02000f;
+        public static final int shopping_list_panel=0x7f020009;
+        public static final int student=0x7f02000a;
+        public static final int student_item=0x7f02000b;
+        public static final int students=0x7f02000c;
+        public static final int teacher=0x7f02000d;
+        public static final int teacher_item=0x7f02000e;
+        public static final int teacher_select_item=0x7f02000f;
+        public static final int teachers=0x7f020010;
     }
     public static final class string {
         public static final int adviser_prompt=0x7f030001;

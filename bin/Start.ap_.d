@@ -1,0 +1,21 @@
+/Users/lyudmil/Dropbox/Development/polimi/bin/Start.ap_ \
+ : /Users/lyudmil/Dropbox/Development/androidrecord/res/layout/shopping_list_panel.xml \
+/Users/lyudmil/Dropbox/Development/androidrecord/res/values/strings.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/course.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/course_item.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/course_select_item.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/courses.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/main.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/new_course.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/new_enrollment.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/new_student.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/new_teacher.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/student.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/student_item.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/students.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/teacher.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/teacher_item.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/teacher_select_item.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/layout/teachers.xml \
+/Users/lyudmil/Dropbox/Development/polimi/res/values/strings.xml \
+/Users/lyudmil/Dropbox/Development/polimi/AndroidManifest.xml \

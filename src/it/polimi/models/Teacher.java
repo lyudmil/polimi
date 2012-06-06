@@ -1,7 +1,7 @@
 package it.polimi.models;
 
 import com.androidrecord.ActiveCollection;
-import com.androidrecord.relations.HasMany;
+import com.androidrecord.associations.HasMany;
 
 public class Teacher extends Person<Teacher> {
     public String title;

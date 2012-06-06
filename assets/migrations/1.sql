@@ -1,0 +1,4 @@
+create table students (id integer primary key autoincrement not null, adviser_id integer, matriculation_number null, name text, created_at varchar(19), updated_at varchar(19));
+create table teachers (id integer primary key autoincrement not null, title text, name text, created_at varchar(19), updated_at varchar(19));
+create table enrollments (id integer primary key autoincrement not null, course_id integer, student_id integer, created_at varchar(19), updated_at varchar(19));
+create table courses (id integer primary key autoincrement not null, description text, name text, teacher_id integer, created_at varchar(19), updated_at varchar(19));
